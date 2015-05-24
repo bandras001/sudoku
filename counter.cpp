@@ -17,6 +17,8 @@ Counter::Counter( int _x, int _y, int _size_x, int _size_y )
     checked = false;
     u_limit = 9;
     l_limit = 0;
+    active = true;
+    valid = true;
 }
 
 void Counter::draw(event ev)
@@ -36,15 +38,18 @@ void Counter::draw(event ev)
     if( is_selected(ev) ) gout << kek;
     else gout << color(200,200,200);
     if(checked) gout << color(120,240,190);
+    if(!valid) gout << color(200,0,0);
+    if(!active) gout << color(150,150,150);
 
     gout << box(size_x-4,size_y-4);
     gout << move_to(x + size_x/2 - gout.twidth(" ")/2, y+ size_y/2 + gout.cdescent());
+
     gout << color(0,0,0) << text(w_text);
 }
 
 void Counter::handle(event ev){
 
-    if( (ev.type == ev_key || ev.type == ev_mouse) && (checked == true) ){
+    if( (ev.type == ev_key || ev.type == ev_mouse) && (checked == true) && active ){
 
         if( (ev.keycode == key_down || ev.button == btn_wheeldown )&& szam != l_limit ) szam-=1; convert(szam,w_text);
 
@@ -55,7 +60,8 @@ void Counter::handle(event ev){
     }
 
     if( (ev.type == ev_mouse && ev.button==btn_left) || (ev.type == ev_key && ev.keycode == key_enter) ) checked = !checked;
-    //cout << checked<< endl;
+
+    if(!active) checked = false;
 
 }
 
@@ -69,6 +75,7 @@ int Counter::get_szam(){
 
 void Counter::set_szam(int _szam){
     szam =_szam;
+    convert(szam,w_text);
 }
 
 void Counter::convert(int _szam, string _w_text){
@@ -76,5 +83,11 @@ void Counter::convert(int _szam, string _w_text){
     ss << _szam;
     w_text = ss.str();
     if(szam == 0) w_text = " ";
+}
+void Counter::set_active(){
+    active=false;
+}
+void Counter::set_valid(bool _valid){
+    valid=_valid;
 }
 

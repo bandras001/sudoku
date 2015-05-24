@@ -20,7 +20,7 @@ int main()
         for(int j=0; j<9;j++){
             if( j%3 == 0 ) terkozj += 3;
             Counter* c = new Counter((j+1)*60 + j+1 + terkozj,(i+1)*60 + terkozi + i+1, 60, 60); {
-            app.addWidget(c);
+            app.addCounter(c);
             }
         }
     }

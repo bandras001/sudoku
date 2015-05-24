@@ -257,3 +257,63 @@
 	<fstream>
 	<sstream>
 
+1432471701 source:d:\documents\sudoku\counter.cpp
+	"counter.hpp"
+	<sstream>
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1432473025 d:\documents\sudoku\counter.hpp
+	"widgets.hpp"
+
+1432421460 d:\documents\sudoku\widgets.hpp
+	"graphics.hpp"
+	<string>
+
+1429189630 d:\documents\sudoku\include\graphics.hpp
+	<string>
+
+1432471507 source:d:\documents\sudoku\main.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"counter.hpp"
+	<iostream>
+
+1432471460 d:\documents\sudoku\application.hpp
+	"widgets.hpp"
+	"counter.hpp"
+	<vector>
+
+1432464748 source:d:\documents\sudoku\widgets.cpp
+	"widgets.hpp"
+	<iostream>
+
+1431698504 source:d:\documents\sudoku\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1431696990 d:\documents\sudoku\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1432470837 source:d:\documents\sudoku\game.cpp
+	"game.hpp"
+
+1432470692 d:\documents\sudoku\game.hpp
+	"widgets.hpp"
+	<vector>
+
+1432473021 source:d:\documents\sudoku\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"game.hpp"
+	<iostream>
+	<fstream>
+	<sstream>
+
