@@ -1,0 +1,259 @@
+# depslib dependency file v1.0
+1431607547 source:c:\users\bejan\desktop\graphicsproject\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1431607547 c:\users\bejan\desktop\graphicsproject\widgets.hpp
+	"graphics.hpp"
+	<string>
+	<map>
+
+1429186029 c:\users\bejan\desktop\graphicsproject\include\graphics.hpp
+	<string>
+
+1431607927 source:c:\users\bejan\desktop\graphicsproject\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+
+1431607927 c:\users\bejan\desktop\graphicsproject\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1431607927 source:c:\users\bejan\desktop\graphicsproject\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"writetextbox.hpp"
+	<vector>
+	<iostream>
+
+1432213768 source:g:\graphicsproject\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"counter.hpp"
+	<vector>
+	<iostream>
+
+1429186030 g:\graphicsproject\include\graphics.hpp
+	<string>
+
+1432042160 g:\graphicsproject\widgets.hpp
+	"graphics.hpp"
+	<string>
+
+1431693390 g:\graphicsproject\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1432028810 source:g:\graphicsproject\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1431694904 source:g:\graphicsproject\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1432212540 source:g:\graphicsproject\counter.cpp
+	"counter.hpp"
+	"graphics.hpp"
+	<sstream>
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1432044154 g:\graphicsproject\counter.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1432415842 source:l:\graphicsproject\main.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"counter.hpp"
+	<iostream>
+
+1429186030 l:\graphicsproject\include\graphics.hpp
+	<string>
+
+1432417860 l:\graphicsproject\widgets.hpp
+	"graphics.hpp"
+	<string>
+
+1432410710 l:\graphicsproject\counter.hpp
+	"widgets.hpp"
+
+1432417850 source:l:\graphicsproject\widgets.cpp
+	"widgets.hpp"
+
+1431694904 source:l:\graphicsproject\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1431693390 l:\graphicsproject\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1432418162 source:l:\graphicsproject\counter.cpp
+	"counter.hpp"
+	<sstream>
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1432032240 source:d:\graphicsproject\counter.cpp
+	"counter.hpp"
+	"graphics.hpp"
+	<sstream>
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1432032410 d:\graphicsproject\counter.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1429189630 d:\graphicsproject\include\graphics.hpp
+	<string>
+
+1432032410 d:\graphicsproject\widgets.hpp
+	"graphics.hpp"
+	<string>
+
+1431823924 source:d:\graphicsproject\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"counter.hpp"
+	<vector>
+	<iostream>
+
+1432032142 source:d:\graphicsproject\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1431698504 source:d:\graphicsproject\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1431696990 d:\graphicsproject\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1432212540 source:e:\graphicsproject\counter.cpp
+	"counter.hpp"
+	"graphics.hpp"
+	<sstream>
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1432044154 e:\graphicsproject\counter.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1429186030 e:\graphicsproject\include\graphics.hpp
+	<string>
+
+1432042160 e:\graphicsproject\widgets.hpp
+	"graphics.hpp"
+	<string>
+
+1432208242 source:e:\graphicsproject\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"counter.hpp"
+	<vector>
+	<iostream>
+
+1432028810 source:e:\graphicsproject\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	<string>
+
+1431694904 source:e:\graphicsproject\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1431693390 e:\graphicsproject\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1432418160 source:l:\graphicsproject\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	<iostream>
+
+1432390266 l:\graphicsproject\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1432464684 source:f:\graphicsproject\counter.cpp
+	"counter.hpp"
+	<sstream>
+	<string.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1432414310 f:\graphicsproject\counter.hpp
+	"widgets.hpp"
+
+1432421460 f:\graphicsproject\widgets.hpp
+	"graphics.hpp"
+	<string>
+
+1429189630 f:\graphicsproject\include\graphics.hpp
+	<string>
+
+1432419442 source:f:\graphicsproject\main.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	"counter.hpp"
+	<iostream>
+
+1432424454 f:\graphicsproject\application.hpp
+	"widgets.hpp"
+	<vector>
+
+1432464748 source:f:\graphicsproject\widgets.cpp
+	"widgets.hpp"
+	<iostream>
+
+1431698504 source:f:\graphicsproject\writetextbox.cpp
+	"writetextbox.hpp"
+	"graphics.hpp"
+	<string>
+	<sstream>
+
+1431696990 f:\graphicsproject\writetextbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<string>
+
+1432464710 source:f:\graphicsproject\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<sstream>
+
